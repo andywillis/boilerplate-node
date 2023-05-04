@@ -3,21 +3,22 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Andy Willis",
   "main": "src/index.js",
   "engines": {
     "node": "^18"
   },
   "scripts": {
+    "sc": "cspell --config cspell.config.js",
     "dev": "nodemon --experimental-specifier-resolution=node --experimental-json-modules src/index",
     "prod": "node --experimental-specifier-resolution=node --experimental-json-modules src/index"
   },
-  "dependencies": {
-  },
   "devDependencies": {
-    "@babel/core": "^7.21.3",
-    "@babel/eslint-parser": "^7.21.3",
+    "@babel/core": "^7.21.8",
+    "@babel/eslint-parser": "^7.21.8",
     "@babel/plugin-syntax-import-assertions": "^7.20.0",
-    "eslint": "^8.37.0",
+    "eslint": "^8.39.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.27.5"
   }
