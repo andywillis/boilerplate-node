@@ -1,9 +1,9 @@
 {
-  "name": "boilerplate-react",
+  "name": "scaffold-node",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "MIT",
   "author": "Andy Willis",
   "main": "src/index.js",
   "engines": {
